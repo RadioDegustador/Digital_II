@@ -1,0 +1,82 @@
+[*]
+[*] GTKWave Analyzer v3.3.66 (w)1999-2015 BSI
+[*] Fri May  5 08:31:16 2017
+[*]
+[dumpfile] "/home/diana/Documentos/Digital II/Proyecto/lm32_matrix-creator/simulation/system_tb.vcd"
+[dumpfile_mtime] "Fri May  5 08:24:56 2017"
+[dumpfile_size] 289505335
+[savefile] "/home/diana/Documentos/Digital II/Proyecto/lm32_matrix-creator/senales.sav"
+[timestart] 0
+[size] 1839 1050
+[pos] -1 -416
+*-16.767540 338600 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] system_tb.
+[treeopen] system_tb.dut.
+[treeopen] system_tb.dut.pantalla0.
+[treeopen] system_tb.dut.pantalla0.pantalla0.
+[sst_width] 258
+[signals_width] 230
+[sst_expanded] 1
+[sst_vpaned_height] 211
+@28
+system_tb.dut.clk
+system_tb.dut.rst
+@200
+-Señales pantalla_wb
+@28
+system_tb.dut.pantalla0.wb_stb_i
+system_tb.dut.pantalla0.wb_cyc_i
+system_tb.dut.pantalla0.wb_we_i
+system_tb.dut.pantalla0.wb_wr
+system_tb.dut.pantalla0.rd
+@22
+system_tb.dut.pantalla0.wb_adr_i[31:0]
+system_tb.dut.pantalla0.wb_dat_i[31:0]
+system_tb.dut.pantalla0.wb_dat_o[31:0]
+@200
+-Señales pantalla
+@28
+system_tb.dut.pantalla0.pantalla0.control.wr
+@22
+system_tb.dut.pantalla0.pantalla0.control.posx[6:0]
+system_tb.dut.pantalla0.pantalla0.control.posy[5:0]
+@24
+system_tb.dut.pantalla0.pantalla0.control.caracter[6:0]
+system_tb.dut.pantalla0.pantalla0.control.state[2:0]
+@22
+system_tb.dut.pantalla0.pantalla0.control.ncolumna[2:0]
+system_tb.dut.pantalla0.pantalla0.control.btc[2:0]
+@200
+-Señales_RAM
+@28
+system_tb.dut.pantalla0.pantalla0.ram.d_in
+system_tb.dut.pantalla0.pantalla0.ram.wr
+@22
+system_tb.dut.pantalla0.pantalla0.ram.addr_wr[12:0]
+@200
+-Señales ROM
+@22
+system_tb.dut.pantalla0.pantalla0.rom.addr_rd[9:0]
+@28
+system_tb.dut.pantalla0.pantalla0.rom.rd
+@22
+system_tb.dut.pantalla0.pantalla0.rom.d_out[7:0]
+system_tb.dut.i2c0.i2c_state[7:0]
+@200
+-i2c
+@28
+system_tb.dut.i2c0.wb_stb_i
+system_tb.dut.i2c0.wb_cyc_i
+system_tb.dut.i2c0.wb_we_i
+system_tb.dut.i2c0.wb_wr
+@23
+system_tb.dut.i2c0.wb_adr_i[31:0]
+@22
+system_tb.dut.i2c0.wb_dat_i[31:0]
+@28
+system_tb.dut.i2c0.scl
+system_tb.dut.i2c0.sda
+@22
+system_tb.dut.i2c0.data_wr[7:0]
+[pattern_trace] 1
+[pattern_trace] 0

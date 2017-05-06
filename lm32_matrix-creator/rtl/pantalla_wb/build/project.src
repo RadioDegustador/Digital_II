@@ -1,0 +1,5 @@
+verilog work ../pantalla_wb.v
+verilog work ../RAM_pantalla.v
+verilog work ../control_pantalla.v
+verilog work ../pantalla.v
+verilog work ../ROM_fuente.v
